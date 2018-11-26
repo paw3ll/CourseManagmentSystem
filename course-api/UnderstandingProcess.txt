@@ -1,0 +1,16 @@
+Starting:
+	Pom.xml
+		Created a parent section that turned the program into a child of the Spring Boot framework
+		to be able to use all of its properties and be a Spring Boot application. Informs Maven what
+		.jars to pull when you list dependencies.
+		
+		Created a dependencies section that listed the application as a web type application
+		
+Understanding:
+	There is an embedded Tomcat server with the Spring Boot download.
+	This allows the user a great convenience becauase they do not have to download the Tomcat server
+	and install it and all of that process. They are able to hit the ground running. This also allows 
+	the servlet container config to act as the application config.
+	This allows the Spring Boot application to be a stand alone application, that is inharently easier
+	to develop on and utalize.
+		
