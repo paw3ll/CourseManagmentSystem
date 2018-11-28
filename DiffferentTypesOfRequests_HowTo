@@ -1,0 +1,17 @@
+The creation of this file is intended to remind / teach an individual about the request types avaiable
+for this application.
+
+GET Request: A GET request will return the requested information. For the case of this application
+we are able to create a GET request based off of "/topics" to return all available topics, and for "/topics/{id}" it will return the specific topic based off of the ID passed.
+
+POST Request: A POST request will post the requested data in the body as long as they correspond to the structure of the data.
+i.e
+	{
+        "id": "EXAMPLE",
+        "name": "Example Framework",
+        "description": "Example Description",
+        "professor": "Professor Example",
+        "creditHours": "3"
+    }
+	
+DELTE Request: Simply assure that the ID you're wishing to delete exists and provide it in the path then send.
