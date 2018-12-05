@@ -14,3 +14,9 @@ Understanding:
 	This allows the Spring Boot application to be a stand alone application, that is inharently easier
 	to develop on and utalize.
 		
+
+The next unit we will be working on Starting a Spring Boot Application using Spring Initalizr, Spring Boot CLI and finally
+STS IDE and then we will work on configuring the application.
+Worked on Spring Groovy Script and creating hello world with it.
+
+Connect Spring Boot application to SQL database using Spring Data JPA (Java Persistence API)
